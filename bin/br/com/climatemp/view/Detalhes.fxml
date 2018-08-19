@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+	fx:controller="br.com.climatemp.controller.DetalhesController">
+   <children>
+      <Label fx:id="lblData" layoutX="24.0" layoutY="58.0" text="15/05/2016">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTempMax" layoutX="37.0" layoutY="104.0" text="28 º">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTempMin" layoutX="37.0" layoutY="183.0" text="19 º">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgClima" fitHeight="110.0" fitWidth="126.0" layoutX="144.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true" />
+      <Pane layoutX="7.0" prefHeight="45.0" prefWidth="200.0" style="-fx-background-color: #000099;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="btnVoltar" layoutX="14.0" layoutY="10.0" mnemonicParsing="false" text="Voltar" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
